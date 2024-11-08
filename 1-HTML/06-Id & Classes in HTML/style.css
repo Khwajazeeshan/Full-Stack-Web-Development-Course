@@ -1,0 +1,19 @@
+body {
+    background-color: orangered;
+}
+
+.red {
+    background-color: aquamarine;
+}
+
+.redgreen {
+    background-color: rgb(235, 235, 153);
+}
+
+#firstdiv {
+    color: blueviolet;
+}
+
+#secdiv {
+    color: rgb(13, 174, 223);
+}

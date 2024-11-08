@@ -1,0 +1,31 @@
+body {
+    background-color: orangered;
+}
+
+p {
+    background-color: aqua;
+}
+
+a {
+    background-color: rgb(97, 97, 212);
+}
+
+div {
+    background-color: rgb(156, 112, 197);
+}
+
+span {
+    background-color: rgb(104, 245, 111);
+}
+
+a {
+    background-color: rgb(243, 243, 71);
+}
+
+h1 {
+    background-color: rgb(219, 172, 172);
+}
+
+h2 {
+    background-color: rgb(90, 224, 90);
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms & Iputs-Tags</title>
+</head>
+
+<body>
+    <h1>Form To Apply For Job</h1>
+    <form action="post">
+        <div>
+            <label for="username">Enter Your username</label>
+            <input type="text" id="username" name="username" placeholder="Enter Your name">
+        </div>
+        <div>
+            <input type="radio" id="male" name="Gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="Female" name="Gender" value="Female">
+            <label for="Female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" id="subscriber" name="subscriber" value="yes">
+            <label for="subscriber">Subscribe My Channle</label>
+        </div>
+        <div>
+            <h4>Enter Your Qualification</h4>
+            <select name="Qualification">
+                <option value="Matric">Matric</option>
+                <option value="intermediate">Intermediate</option>
+            </select>
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="comment">Enter Your Comment......</label>
+            <div>
+                <textarea name="comment" id="comment" cols="45" rows="5"></textarea>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

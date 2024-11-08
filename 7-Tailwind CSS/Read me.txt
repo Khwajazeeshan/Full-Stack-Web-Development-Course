@@ -1,0 +1,44 @@
+CSS Syntax						                Tailwind CSS Syntax
+
+background-color: #ff0000;				        bg-red-500
+color: #00ff00;						            text-green-500
+font-size: 16px;					            text-base
+padding: 1rem;						            p-4
+padding-left: 						            pl-4
+padding-right: 1rem;					        pr-4
+padding-top: 1rem;					            pt-4
+padding-bottom: 1rem;					        pb-4
+margin: 1rem;						            m-4
+margin-left: 1rem;					            ml-4
+display: flex;						            flex
+display: grid;						            grid
+grid-template-columns: repeat(3, 1fr);			grid-cols-3
+justify-content: center;				        justify-center
+align-items: center;					        items-center
+text-align: center;					            text-center
+width: 100%;						            w-full
+height: 100vh;						            h-screen
+max-width: 600px;					            max-w-sm
+transition: all 0.3s ease;				        transition duration-300 ease
+transform: scale(1.1);					        scale-110
+border-radius: 8px;					            rounded-lg
+font-weight: bold;					            font-bold
+opacity: 0.5;						            opacity-50
+display: none;						            hidden
+display: block;						            block
+position: absolute;					            absolute
+overflow: hidden;					            overflow-hidden
+flex-direction: column;					        flex-col
+flex-wrap: wrap;					            flex-wrap
+gap: 1rem;						                gap-4
+text-transform: uppercase;				        uppercase
+letter-spacing: 0.1em;					        tracking-wider
+shadow: 0 4px 6px rgba(0,0,0,0.1);			    shadow-lg
+cursor: pointer;					            cursor-pointer
+
+
+			
+@media (min-width: 640px) { ... }			    sm: (e.g., sm:bg-red-500)
+@media (min-width: 768px) { ... }			    md: (e.g., md:text-center)
+@media (min-width: 1024px) { ... }			    lg: (e.g., lg:w-full)
+@media (min-width: 1280px) { ... }			    xl: (e.g., xl:h-screen)

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filters In CSS</title>
+    <style>
+        .img0 {
+            filter: blur(2px) brightness(3);
+        }
+
+        .img2 {
+            filter: contrast(4) invert();
+        }
+
+        .img3 {
+            filter: opacity(0.5) grayscale(1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="img0">
+        <img src="img1.png">
+    </div>
+    <div class="img2">
+        <img src="img1.png">
+    </div>
+    <div class="img3">
+        <img src="img1.png">
+    </div>
+</body>
+
+</html>

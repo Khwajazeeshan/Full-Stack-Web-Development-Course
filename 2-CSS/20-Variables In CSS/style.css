@@ -1,0 +1,28 @@
+:root {
+    --color: rgb(12, 228, 58);
+    --seccolor: rgb(163, 240, 163);
+    --thicolor: rgb(255, 109, 133);
+    --border: 2px;
+    --defpad: 5px;
+    --defmarging: 5px;
+}
+
+* {
+    padding: var(--defpad);
+    margin: var(--defmarging);
+    list-style: none;
+}
+
+ol {
+    display: flex;
+}
+
+.box {
+    background-color: var(--color);
+    border: var(--border) solid var(--thicolor);
+}
+
+.box1 {
+    background-color: var(--seccolor);
+    border: var(--border) solid var(--thicolor);
+}

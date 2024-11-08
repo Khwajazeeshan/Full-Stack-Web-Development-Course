@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow property in CSS</title>
+    <style>
+        .box{
+            width: 55vw;
+            height: 35vh;
+            border: 2px solid red;
+            overflow:  auto;
+            white-space: nowrap;
+            text-overflow:  ellipsis;  /* it can show .... in the last corner of box */
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid aspernatur quasi a commodi neque, ex saepe excepturi repellat, aliquam nam repudiandae assumenda corporis sequi culpa earum consequuntur et non doloremque, est eveniet atque officia!
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+body {
+    background-color: orangered;
+}
+
+
+.container {
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: green;
+    font-size: 2em;
+    /* em can double the given font size  */
+    width: 100vmax;
+    /* vmax can increase the width in pc or laptop or tablets but it increse height in cell phones */
+}
+
+.goal {
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin: 22px;
+    background-color: rgb(20, 58, 109);
+    font-size: 2em;
+    /* em can double the given font size  */
+    width: 100vmin;
+    /* vmin can increase the width in cell phones but it increse height in pc or laptop or tablets */
+}
+
+/* if we want to same size of every font size in web site and only change one box font size then we use rem  
+html {
+    font-size: 30px;
+    }
+.container {
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: green;
+    font-size: 2rem;
+    em can double the givent font size  
+    vmax can increase the width in pc or laptop or tablets but it increse height in cell phones 
+}
+*/

@@ -1,0 +1,56 @@
+body {
+    background-color: orangered;
+}
+
+/* Element Selector */
+div {
+    background-color: yellow;
+    color: red;
+}
+
+/* id Selector */
+#red {
+    background-color: aqua;
+    color: azure;
+}
+
+/* Class Selector */
+.red {
+    background-color: blueviolet;
+    color: crimson;
+}
+
+/* child Selector */
+div>p {
+    background-color: rgb(179, 233, 118);
+    color: black;
+}
+
+/* Descendant Selector */
+div p {
+    background-color: rgb(125, 221, 221);
+    color: black;
+}
+
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Pseudo Selector */
+a:visited {
+    color: yellow;
+}
+
+a:link {
+    color: green;
+}
+
+a:active {
+    color: red;
+}
+
+a:hover {
+    background-color: gray;
+}

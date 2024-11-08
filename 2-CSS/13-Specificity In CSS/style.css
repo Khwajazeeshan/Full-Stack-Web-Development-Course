@@ -1,0 +1,30 @@
+body {
+    background-color: orangered;
+}
+
+h1 {
+    color: azure;
+}
+
+.yellow {
+    color: rgb(218, 188, 19);
+}
+
+.red {
+    color: rgb(50, 48, 209);
+}
+
+/* specificity is 10 */
+h2 {
+    color: lightgray;
+}
+
+/* specificity is 10 + 1 */
+h2.black {
+    color: chartreuse;
+}
+
+/* specificity is 10 */
+.white {
+    color: cadetblue;
+}

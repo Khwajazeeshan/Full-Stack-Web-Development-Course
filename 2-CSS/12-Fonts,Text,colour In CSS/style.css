@@ -1,0 +1,30 @@
+body {
+    background-color: aqua;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 2000;
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-decoration-color: purple;
+    letter-spacing: 10px;
+    color: red;
+    line-height: 5px;
+    text-indent: 100px;
+}
+
+h3 {
+    border: 3px solid green;
+    width: 90px;
+    text-overflow:ellipsis ;
+    overflow: hidden;
+}

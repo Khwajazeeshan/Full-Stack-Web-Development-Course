@@ -1,0 +1,39 @@
+.boxes * {
+    border: 2px solid gray;
+    margin: 3px;
+    padding: 8px;
+}
+
+.box:first-child {
+    background-color: rgb(149, 241, 241);
+}
+
+.box::first-line {
+    color: rgb(252, 21, 5);
+}
+
+.box:nth-child(even) {
+    font-weight: bolder;
+}
+
+.box:nth-last-child(1) {
+    background-color: rgb(184, 151, 108);
+}
+
+.box::first-letter {
+    color: rgb(146, 233, 47);
+    font-size: 50px;
+}
+
+::selection {
+    background-color: orange;
+    color: rgb(121, 173, 68);
+}
+
+[data-color="primary"] {
+    background-color: rgb(75, 165, 250);
+}
+
+input::placeholder {
+    color: rgb(182, 121, 8);
+}

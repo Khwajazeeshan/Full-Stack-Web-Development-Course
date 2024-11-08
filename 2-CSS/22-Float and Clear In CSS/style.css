@@ -1,0 +1,23 @@
+.card {
+    border: 2px solid black;
+    padding: 5px;
+    display: flow-root;
+}
+
+img {
+    float: right;
+}
+
+.card1 {
+    border: 2px solid red;
+}
+
+.card2 {
+    border: 2px solid red;
+    background-color: rgb(132, 252, 152);
+    clear: both;
+}
+
+.card3 {
+    border: 2px solid red;
+}

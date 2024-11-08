@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity In CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <!-- apply color class red because the class red in last in style sheet -->
+        <h1 class="red yellow "> Hello World</h1>
+    </div>
+    <div>
+        <!-- apply color class black because the specificity of class black is high  -->
+        <h2 class="black white ">Hello from h2</h2>
+    </div>
+</body>
+
+</html>

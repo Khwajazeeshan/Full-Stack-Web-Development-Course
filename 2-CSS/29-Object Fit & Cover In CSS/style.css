@@ -1,0 +1,34 @@
+.box {
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: azure;
+    margin-bottom: 40px;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+    /* object-fit: fill;  */
+    /* object-fit: cover; */
+    /* object-position: left top; */
+    /* object-position: 10px 10px; */
+    /* object-fit: scale-down; */
+}
+
+/* Use Image as a background in Box */
+.box1 {
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    background-image: url("img1.png");
+    background-position: center center;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+    /* if the image size is small than the box size, then the same image is repeat in box to fill the back-ground......
+    then we use a background-repeat property for not repeated the same image */
+    /* background-repeat: no-repeat; */
+}

@@ -1,0 +1,33 @@
+.container {
+    border: 3px solid black;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    /* flex-direction: column; */
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.box {
+    background-color: rgb(26, 10, 247);
+    border: 2px solid red;
+    height: 50px;
+    width: 40px;
+}
+
+/* it can be appear in last because other box order is zero */
+.order1 {
+    order: 1;
+}
+
+/* flex-grow can take space of given input box */
+.box1 {
+    flex-grow: 2;
+    /* it can shrink the box its half */
+    /* flex-shrink: 2; */
+    /* it can align only specific box in start or end */
+    /* align-self: flex-end; */
+}

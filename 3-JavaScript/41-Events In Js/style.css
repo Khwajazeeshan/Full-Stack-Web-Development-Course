@@ -1,0 +1,20 @@
+.container{
+    height: 80px;
+    padding: 20px;
+}
+.data {
+    background-color: orange;
+    margin: 20px;
+    padding: 30px;
+}
+
+.childData {
+    background-color: rgb(36, 172, 36);
+    padding: 40px;
+}
+
+.child {
+    background-color: rgb(17, 66, 139);
+    padding: 40px;
+    color: aliceblue;
+}

@@ -1,4 +1,4 @@
-## How to setup Tailwind CSS
+## How to setup Tailwind CSS.
 
 Step 1: Run the following commands
 

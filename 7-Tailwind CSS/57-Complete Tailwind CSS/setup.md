@@ -19,9 +19,10 @@ Step 3: create src/input.css to include:
 @tailwind utilities;
 ```
 
-Step 4: Link the src/output.css file to your html file
-
-Step 5: Run the following command:
+Step 4:Run the following command:
 ```
 npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 ```
+
+
+Step 5: Link the src/output.css file to your html file

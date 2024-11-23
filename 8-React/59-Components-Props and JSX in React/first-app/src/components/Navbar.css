@@ -1,0 +1,19 @@
+nav {
+    background-color: rgb(246, 246, 138);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 22px;
+}
+
+ul {
+    display: flex;
+    gap: 22px;
+}
+
+li {
+    font-size: 22px;
+    list-style: none;
+    cursor: pointer;
+}

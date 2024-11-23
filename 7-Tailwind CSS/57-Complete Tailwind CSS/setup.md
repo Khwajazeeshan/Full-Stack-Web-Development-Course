@@ -26,7 +26,7 @@ Step 4:Run the following command:
 npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 ```
 
-Step 5: Link the src/output.css file to your html file
+Step 5: Link the src/output.css file to your html file:
 
 step 6: Run the following command:
 ```

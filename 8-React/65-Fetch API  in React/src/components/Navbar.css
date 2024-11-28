@@ -1,0 +1,23 @@
+nav {
+    background-color: rgb(26, 25, 25);
+    color: white;
+    width: 98%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 22px;
+    position: fixed;
+    top: 0;
+}
+
+ul {
+    display: flex;
+    gap: 22px;
+}
+
+li {
+    font-size: 22px;
+    list-style: none;
+    cursor: pointer;
+}

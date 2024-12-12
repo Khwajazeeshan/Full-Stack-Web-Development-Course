@@ -5,11 +5,11 @@ console.log(box)
 
 box[3].style.backgroundColor = "red"
 
-document.getElementById("red").style.backgroundColor="green"
+document.getElementById("red").style.backgroundColor = "green"
 
-document.querySelector(".box").style.backgroundColor="green"
+document.querySelector(".box").style.backgroundColor = "green"
 
-document.querySelectorAll(".box").forEach(e=>{
+document.querySelectorAll(".box").forEach(e => {
     // console.log(e)
     // e.style.backgroundColor="green";
 })

@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  background-color: rgb(62, 62, 62);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 44px;
+  padding: 22px;
+}
+
+li a {
+  color: white;
+}
+
+.red {
+  color: rgb(62, 62, 189);
+}

@@ -15,6 +15,9 @@ Here's what you can expect to find in this repository:
 
 - **JavaScript**:  
   Add **dynamic** functionality to your websites! Understand client-side scripting and how to make your web applications interactive. Explore concepts such as variables, functions, DOM manipulation, and events to enhance user experience. ⚡💻
+  
+- **Next.js**:  
+    Take your React applications to the next level with Next.js! Learn how to build server-side rendered (SSR) and static site generated (SSG) applications for better performance and SEO. Explore features like API routes, image optimization, and dynamic routing to create powerful web apps. ⚡🚀
 
 - **React**:  
   Build **interactive** and component-based user interfaces with this popular JavaScript library. Learn how to create reusable components, manage application state, and use hooks to streamline your code, making your applications efficient and maintainable. 🔄🔧
